@@ -1,6 +1,6 @@
 import cv2
 cap = cv2.VideoCapture(0)
-print ("Input even for color livefeed")
+print ("Input even for Color livefeed")
 print ("Input odd for Grayscale livefeed")
 a = int(raw_input())
 
