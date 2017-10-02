@@ -14,7 +14,7 @@ while True:
         cv2.imshow("frame",frame)
         cv2.waitKey(1)
     else:
-        frame = cv2.flip(frame,flipCode=1)
+        gray = cv2.flip(gray,flipCode=1)
         cv2.imshow("frame",gray)
         cv2.waitKey(1)
 cap.release()
